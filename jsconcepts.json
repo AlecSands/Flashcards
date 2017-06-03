@@ -1,0 +1,100 @@
+{
+  "concepts": [
+    {
+      "concept": "variable",
+      "description": "A variable is a container which can hold data of various kinds.  It is typically created using the 'var variableName = x' syntax"
+    }
+    {
+      "concept": "conditional code",
+      "description": "Code runs only under certain conditions, not all the time.  The classic example is the 'if (condition) {do this}' statment"
+    }
+    {
+      "concept": "operator",
+      "description": "Refers to a large number of concepts which usually follow the structure of '_____ operator'.  The most common kind of operator is the arithmetic operator which includes '+, -, *, /, %, etc.'.  Other operators include assignment, comparison, bitwise, logical, string, conditional(ternary), comma, unary, and relational operators."
+    }
+    {
+      "concept": "+=",
+      "description": "This is shorthand for adding a number to a variable.  For example, 'x=x+2' can be shortend to 'x+=2'."
+    }
+    {
+      "concept": "%",
+      "description": "This symbol is referred to as the 'modulus' or 'remainder operator'.  The modulus returns the remainder of a division operation.  For example 'x = 2017%4' would mean that 'x' is now equal to '1'"
+    }
+    {
+      "concept": "==",
+      "description": ""
+    }
+    {
+      "concept": "===",
+      "description": ""
+    }
+    {
+      "concept": "modulus",
+      "description": "Refers to the logical operator '%' which returns the remainder of a division operation.  For example 'x = 7%4' would mean that 'x' is now equal to '3'. This is also referred to as the remainder operator."
+    }
+    {
+      "concept": "remainder operator",
+      "description": "Refers to the logical operator '%' which returns the remainder of a division operation.  For example 'x = 17%4' would mean that 'x' is now equal to '1'.  This is also referred to as the modulus."
+    }
+    {
+      "concept": "object literal notation",
+      "description": "Refers to one of two ways to create an object in javascript.  The object constructor uses the syntax 'var objectName = {};'.  The alternate way to create an object is called object constructor.",
+    }
+    {
+      "concept": "object constructor",
+      "description": "Refers to one of two ways to create an object in javascript.  The object constructor uses the syntax 'var objectName = new Object();'.  The alternate way to create an object is called object literal notation.",
+    }
+    {
+      "concept": "property (of an object)",
+      "description": "Refers to the first part of a data entry in an object.  For example in the objec '{property: value, decision: logic}' both 'propery' and 'decision' are properties of the object."
+    }
+    {
+      "concept": "function",
+      "description": "A function is a procedure which comprised of a set of statements preforms a task or calculates a value.  It must be defined within the scope you wish to call it."
+    }
+    {
+      "concept": "argument",
+      "description": "Refers to the things which can be passed through a function.  For example in the function 'function functionName(argument1, argument2) {statement1; statement2;}' the arguments are 'argument1' and 'argument2' and they will typically be referenced within the statements."
+    }
+    {
+      "concept": "statement",
+      "description": "Refers a variety of statement types which can be used in javascript.  Some examples include 'if' statements or 'else' statements.  Here is a complete list: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements"
+    }
+    {
+      "concept": "key",
+      "description": "Refers to a property and value pair in an object.  For example '{property: value}' contains the key of 'property: value'"
+    }
+    {
+      "concept": "parameter",
+      "description": ""
+    }
+    {
+      "concept": "if statement",
+      "description": "A statement which states that if some condition is true then do a statement, or else do this statement(else is optional).  The syntax for and 'if statement' is as follows: 'if (condition) {do this} else {do this}'"
+    }
+    {
+      "concept": "for statement",
+      "description": "A 'for statement' is a kind of loop which repeats until a specific condition evaluates as false.  It follows this structure: 'for ([initialExpression]; [condition]; [incrementExpression]) statement'."
+    }
+    {
+      "concept": "loop",
+      "description": "Loops refer to quick and easy ways to do something repeatedly using Javascript.  The most common types of loops are 'for statemennts'"
+    }
+    {
+      "concept": "object",
+      "description": ""
+    }
+    {
+      "concept": "array",
+      "description": ""
+    }
+    {
+      "concept": "for...in statement",
+      "description": "The 'for...in' statement declares a variable which will be used to iterate through all of the properties of a given object or array.  It is important to remember that this will not run through the nested properties inside of a nested object or nested array.  If we want to run through nested objects, then we need to create nested 'for...in' loops.  The 'for...in' loop syntax is as follows: 'for (variable in object) {statements}'."
+    }
+    {
+      "concept": "for...of statement",
+      "description": "The 'for...in' statement declares a variable which will be used to iterate through all of the values of a given object or array.  This is distinct from a 'for...in' loop which iterates the variable through properties rather than values.  The syntax for a 'for...in' loop is as follows: 'for (variable of object) {statement}'."
+    }
+  ]
+}
