@@ -1,6 +1,6 @@
 console.log('hi');
 
-var jsonHTML = 'Flashcards/jsconcepts.json';
+var jsonHTML = 'jsconcepts.json';
 var myRequest = new XMLHttpRequest();
 
 myRequest.open('GET', jsonHTML);
