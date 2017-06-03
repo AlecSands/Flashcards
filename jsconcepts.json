@@ -1,4 +1,5 @@
 {
+  "concepts" : [
     {
       "concept": "variable",
       "description": "A variable is a container which can hold data of various kinds.  It is typically created using the 'var variableName = x' syntax"
@@ -95,4 +96,5 @@
       "concept": "for...of statement",
       "description": "The 'for...in' statement declares a variable which will be used to iterate through all of the values of a given object or array.  This is distinct from a 'for...in' loop which iterates the variable through properties rather than values.  The syntax for a 'for...in' loop is as follows: 'for (variable of object) {statement}'."
     }
+  ]
 }
